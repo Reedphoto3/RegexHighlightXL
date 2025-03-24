@@ -1,6 +1,6 @@
 # Excel 文档关键词高亮显示工具
 
-[![GitHub license](https://img.shields.io/github/license/Reedphoto3/RegexHighlightXL)](https://github.com/Reedphoto3/RegexHighlightXL/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 一个轻量级的 Excel 文本搜索工具，支持正则表达式，可以快速查找和高亮显示 Excel 文件中的文本内容。
 特别适合处理和分析包含大量文本信息的 Excel 文档。
