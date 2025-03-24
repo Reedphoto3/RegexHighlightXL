@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RegexHighlightXL</title>
+    <!-- SheetJS (https://sheetjs.com/) - Copyright (C) 2012-present SheetJS LLC - Apache-2.0 License -->
+    <style>
+        mark { background-color: yellow; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        th, td { padding: 5px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>RegexHighlightXL</h1>
+    <input type="file" id="fileInput" accept=".xlsx, .xls" onchange="loadExcelFile()" /><br><br>
+    <div id="sheetSelector" style="display:none;">
+        请选择一个表格: <br>
+        <!-- 这里会通过JavaScript动态添加表格选择的单选按钮 -->
+    </div>
+    <div id="columnSelectors" style="display:none;"> <!-- 注意这里的 ID 改为 columnSelectors -->
+        <p>请选择要搜索的列 (会对这些列进行关键词搜索并高亮):</p>
+        <div id="searchColumnCheckboxes"></div>
+        <p>请选择要显示的列 (这些列将显示数据但不参与搜索):</p>
+        <div id="displayColumnCheckboxes"></div>
+    </div>    
+    关键词: <input type="text" id="keyword"><br>
+    <input type="button" value="高亮显示" onclick="highlightText()">
+    <div id="result"></div>
+<script src="src/RegexHighlightXL_1.js"></script>
+<script src="lib/xlsx.full.min.js"></script>
+</body>
+</html>
