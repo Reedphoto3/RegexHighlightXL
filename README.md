@@ -41,7 +41,7 @@ git clone https://github.com/Reedphoto3/RegexHighlightXL.git
 
 ## 技术栈
 
-- 纯原生 JavaScript
+- JavaScript
 - HTML5 File API
 - 正则表达式
 - SheetJS 用于 Excel 文件处理
@@ -67,14 +67,6 @@ git clone https://github.com/Reedphoto3/RegexHighlightXL.git
 本项目使用了以下开源软件：
 
 - [SheetJS](https://sheetjs.com/) (Apache-2.0 License) - 用于 Excel 文件处理的优秀开源库
-
-## 贡献
-
-1. Fork 本仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的改动 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
 
 ## 问题反馈
 
